@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "CS50 Final Project",
+  "description": "Shows Upvotes on Quora",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+      {
+        "matches": [ "*://*.quora.com/*"],
+        "js": ["jquery-3.2.1.min.js","content.js"]
+      }
+  ],
+  "permissions": [
+    "activeTab","tabs","https://*.quora.com/*"
+  ]
+}
