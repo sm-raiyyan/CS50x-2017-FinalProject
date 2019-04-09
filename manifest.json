@@ -5,16 +5,17 @@
   "description": "Shows Upvotes on Quora",
   "version": "1.0",
 
-  "browser_action": {
+  "browser_action":{
     "default_icon": "icon.png"
   },
-  "content_scripts": [
+  
+  "content_scripts":[
       {
-        "matches": [ "*://*.quora.com/*"],
+        "matches":[ "*://*.quora.com/*"],
         "js": ["jquery-3.2.1.min.js","content.js"]
       }
   ],
-  "permissions": [
+  "permissions":[
     "activeTab","tabs","https://*.quora.com/*"
   ]
 }
