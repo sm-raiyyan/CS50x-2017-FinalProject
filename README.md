@@ -1,5 +1,5 @@
 # CS50x-2017-FinalProject
-CS50 Final Project
+This repository contains my Final Project of CS50x 2017
 
 # Installation
 1. Go to the link: chrome://extensions/
